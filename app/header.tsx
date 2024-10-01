@@ -15,13 +15,13 @@ export function Header() {
     <div className="relative z-10 border-b py-4 bg-gray-50">
       <div className="items-center container mx-auto justify-between flex">
         <Link href="/" className="flex gap-2 items-center text-xl text-black">
-          <Image src="/logo.png" width="50" height="50" alt="file drive logo" />
+          <Image src="/logo.ico" width="50" height="50" alt="file drive logo" />
           FileDrive
         </Link>
 
         <SignedIn>
           <Button variant={"outline"}>
-            <Link href="/dashboard/files">Your Files</Link>
+            <Link href="/dashboard/files">Tệp tin của bạn</Link>
           </Button>
         </SignedIn>
 
@@ -30,7 +30,7 @@ export function Header() {
           <UserButton />
           <SignedOut>
             <SignInButton>
-              <Button>Sign In</Button>
+              <Button>Đăng nhập</Button>
             </SignInButton>
           </SignedOut>
         </div>

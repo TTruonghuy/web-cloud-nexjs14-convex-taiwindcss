@@ -30,7 +30,7 @@ function Placeholder() {
         height="300"
         src="/empty.svg"
       />
-      <div className="text-2xl">You have no files, upload one now</div>
+      <div className="text-2xl">Bạn chưa có tệp nào, hãy tải lên một tệp ngay bây giờ</div>
       <UploadButton />
     </div>
   );
@@ -97,15 +97,16 @@ export function FileBrowser({
           <TabsList className="mb-2">
             <TabsTrigger value="grid" className="flex gap-2 items-center">
               <GridIcon />
-              Grid
+              Lưới
             </TabsTrigger>
             <TabsTrigger value="table" className="flex gap-2 items-center">
-              <RowsIcon /> Table
+              <RowsIcon /> 
+              Bảng
             </TabsTrigger>
           </TabsList>
 
           <div className="flex gap-2 items-center">
-            <Label htmlFor="type-select">Type Filter</Label>
+            <Label htmlFor="type-select">Bộ lọc</Label>
             <Select
               value={type}
               onValueChange={(newType) => {

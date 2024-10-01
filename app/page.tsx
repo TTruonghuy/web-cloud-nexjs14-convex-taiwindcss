@@ -20,7 +20,7 @@ export default function LandingPage() {
         <div className="mx-auto max-w-2xl py-8">
           <div className="text-center">
             <Image
-              src="/logo.png"
+              src="/logo.ico"
               width="200"
               height="200"
               alt="file drive logo"

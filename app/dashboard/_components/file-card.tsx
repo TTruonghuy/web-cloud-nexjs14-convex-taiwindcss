@@ -8,11 +8,11 @@ import {
   import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
   import { formatRelative } from "date-fns";
   
-  import { Doc } from "../../../../convex/_generated/dataModel";
+  import { Doc } from "../../../convex/_generated/dataModel";
   import { FileTextIcon, GanttChartIcon, ImageIcon } from "lucide-react";
   import { ReactNode } from "react";
   import { useQuery } from "convex/react";
-  import { api } from "../../../../convex/_generated/api";
+  import { api } from "../../../convex/_generated/api";
   import Image from "next/image";
   import { FileCardActions } from "./file-actions";
   

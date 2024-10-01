@@ -118,7 +118,7 @@ export function UploadButton() {
       }}
     >
       <DialogTrigger asChild>
-        <Button>Upload File</Button>
+        <Button>Tải tệp lên</Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
